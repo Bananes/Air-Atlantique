@@ -1,0 +1,18 @@
+﻿<Page x:Class="AireAtlantique.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AireAtlantique"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1050"
+      Title="MainPage">
+
+    <Grid Background="#EFEFEF" Height="700" Width="1050">
+        <Button x:Name="bAddFormation" Content="Formation" HorizontalAlignment="Left" Height="130" Margin="229,271,0,0" VerticalAlignment="Top" Width="130" BorderBrush="{x:Null}" Foreground="White" Background="#FFF44336" Click="bAddFormation_Click"/>
+        <Button x:Name="bAddSession" Content="Session" HorizontalAlignment="Left" Height="130" Margin="461,271,0,0" VerticalAlignment="Top" Width="130" Background="#FF2196F3" BorderBrush="{x:Null}" Foreground="White" Click="bAddSession_Click"/>
+        <Button x:Name="bEmployer" Content="Employer" HorizontalAlignment="Left" Height="130" Margin="699,271,0,0" VerticalAlignment="Top" Width="130" Foreground="White" Background="#FF4CAF50" BorderBrush="{x:Null}" Click="bEmployer_Click"/>
+        <Button x:Name="bParametre" Content="Paramètres" HorizontalAlignment="Left" Margin="877,43,0,0" VerticalAlignment="Top" Width="122" Click="bParametre_Click"/>
+
+    </Grid>
+</Page>
