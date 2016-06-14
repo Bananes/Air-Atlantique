@@ -26,7 +26,7 @@ namespace AireAtlantique
         {
             InitializeComponent();
 
-            //Je créé les pages et je les stock dans la class switcher
+            //Je créé les pages et je les staock dans la class switcher
             Switcher.mainPage = new MainPage();
             Switcher.Parametre = new Parametre();
             Switcher.Formation = new FormationPage();

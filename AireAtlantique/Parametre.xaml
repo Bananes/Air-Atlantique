@@ -8,7 +8,7 @@
       d:DesignHeight="700" d:DesignWidth="1050"
       Title="Parametre">
 
-    <Grid Background="#FFDCCCCC" Height="700" Width="1050">
+    <Grid Background="#EFEFEF" Height="700" Width="1050">
         <Button x:Name="bMenu" Content="Menu" HorizontalAlignment="Left" Margin="23,18,0,0" VerticalAlignment="Top" Width="75" Click="bMenu_Click"/>
         <TextBox x:Name="tbAjouterMetier" HorizontalAlignment="Left" Height="23" Margin="23,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="bAjouterMetier" Content="Ajouter Metier" HorizontalAlignment="Left" Margin="166,84,0,0" VerticalAlignment="Top" Width="131" Click="bAjouterMetier_Click"/>
